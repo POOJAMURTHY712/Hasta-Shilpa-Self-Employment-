@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HastaShilpa" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/olive_bamboo</item>
+        <item name="android:windowBackground">@color/creamy_paper</item>
+        <item name="colorSecondary">@color/woody_brown</item>
+        <item name="colorSurface">@color/creamy_paper</item>
+    </style>
+
+    <style name="Theme.HastaShilpa" parent="Base.Theme.HastaShilpa" />
+
+    <!-- Organic Modernism Card Style -->
+    <style name="OrganicCardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">32dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <!-- Organic Button Style -->
+    <style name="OrganicButton" parent="Widget.Material3.Button">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Organic.Button</item>
+        <item name="backgroundTint">@color/olive_bamboo</item>
+    </style>
+
+    <style name="ShapeAppearance.Organic.Button" parent="">
+        <item name="cornerSize">32dp</item>
+    </style>
+</resources>
